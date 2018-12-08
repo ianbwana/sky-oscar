@@ -183,3 +183,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+from oscar.defaults import *
+OSCAR_DEFAULT_CURRENCY = 'KES'
+OSCAR_SHOP_NAME = 'Duka '
+OSCAR_SHOP_TAGLINE = 'almost woolworths'
+
+
