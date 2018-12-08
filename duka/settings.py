@@ -13,6 +13,9 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 
 from oscar.defaults import *
 import os
+import django_heroku
+from decouple import config
+
 
 location = lambda x: os.path.join(
     os.path.dirname(os.path.realpath(__file__)), x)
@@ -48,10 +51,10 @@ STATICFILES_FINDERS = (
 
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '1@_l!tnk9b+ld1(&6)*wz)5sof3#a=h0c_cq2^dusplm3n)-wx'
+SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = config('DEBUG', cast=bool)
 
 ALLOWED_HOSTS = []
 
@@ -188,4 +191,4 @@ from oscar.defaults import *
 OSCAR_DEFAULT_CURRENCY = 'KES'
 OSCAR_SHOP_NAME = 'Worthwools'
 
-
+django_heroku.settings(locals())
