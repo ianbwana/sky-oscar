@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4adcff87-f3f0-460f-a473-290915d6e513" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/dashboard/partners/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/duka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/duka.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/duka/media/image_not_found.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/duka/media/images/image_not_found.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duka/duka/media/categories/pexels-photo-428338.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duka/duka/media/categories/pexels-photo-555790.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/duka/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/duka/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,13 +28,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/duka/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="73" column="53" selection-start-line="73" selection-start-column="53" selection-end-line="73" selection-end-column="53" />
+            <state relative-caret-position="182">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="505fc9c79b91ddd8230156c5e435d72f.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/duka/media/cache/50/5f/505fc9c79b91ddd8230156c5e435d72f.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
@@ -48,11 +54,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/partner/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="165">
+              <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,8 +80,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/duka/urls.py" />
-        <option value="$PROJECT_DIR$/duka/settings.py" />
         <option value="$PROJECT_DIR$/apps/dashboard/partners/forms.py" />
+        <option value="$PROJECT_DIR$/apps/partner/models.py" />
+        <option value="$PROJECT_DIR$/duka/settings.py" />
       </list>
     </option>
   </component>
@@ -107,13 +117,37 @@
             <path>
               <item name="duka" type="b2602c69:ProjectViewProjectNode" />
               <item name="duka" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="duka" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="duka" type="b2602c69:ProjectViewProjectNode" />
               <item name="duka" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="partner" type="462c0819:PsiDirectoryNode" />
+              <item name="duka" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="duka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="duka" type="462c0819:PsiDirectoryNode" />
+              <item name="duka" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="duka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="duka" type="462c0819:PsiDirectoryNode" />
+              <item name="duka" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+              <item name="50" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="duka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="duka" type="462c0819:PsiDirectoryNode" />
+              <item name="duka" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+              <item name="50" type="462c0819:PsiDirectoryNode" />
+              <item name="5f" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -128,6 +162,12 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/duka/media" />
+      <recent name="$PROJECT_DIR$/duka/media/images" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -186,10 +226,10 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.3287037" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3287037" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3287037" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3287037" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3287037" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
@@ -253,13 +293,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/duka/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="73" column="53" selection-start-line="73" selection-start-column="53" selection-end-line="73" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/dashboard/partners/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -272,8 +305,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/partner/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="165">
+          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duka/media/cache/50/5f/505fc9c79b91ddd8230156c5e435d72f.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duka/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
         </state>
       </provider>
     </entry>
