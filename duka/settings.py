@@ -71,7 +71,7 @@ INSTALLED_APPS = [
     'django.contrib.flatpages',
     'widget_tweaks',
 
-] + get_core_apps()
+] + get_core_apps( ['apps.dashboard.partners', 'apps.partner'])
 
 SITE_ID = 1
 
@@ -182,3 +182,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
