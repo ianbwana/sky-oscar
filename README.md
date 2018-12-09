@@ -42,7 +42,7 @@ DB_HOST='<db host>'
 DB_PORT='<db port>'
 DEBUG=<boolean>
 ```
-#### Install dependancies
+#### Install dependencies
 Install environmental dependencies that will enable the app to run
 `pip install -r requirements.txt`
 
