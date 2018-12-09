@@ -28,11 +28,13 @@ urlpatterns = [
     # The Django admin is not officially supported; expect breakage.
     # Nonetheless, it's often useful for debugging.
 
+    path('', RedirectView.as_view(url='catalogue/', permanent=True )),
+
     # url(r'^admin/', admin.site.urls),
     path('admin/', admin.site.urls),  # > Django-2.0
 
     # url(r'', application.urls),
     path('', application.urls),  # > Django-2.0
 
-    path('', RedirectView.as_view(url='/catalogue/', permanent=True)),
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+    ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
