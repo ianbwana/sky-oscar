@@ -133,13 +133,12 @@ WSGI_APPLICATION = 'duka.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'db.sqlite3',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'oscar',
+        'USER': 'oscaradmin',
+        'PASSWORD': 'password',
+        'HOST': '127.0.0.1',
         'PORT': '',
-        'ATOMIC_REQUESTS': True,
     }
 }
 
