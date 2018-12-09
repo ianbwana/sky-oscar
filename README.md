@@ -42,7 +42,7 @@ DB_HOST='<db host>'
 DB_PORT='<db port>'
 DEBUG=<boolean>
 ```
-#### Install dependancies
+#### Install dependencies
 Install environmental dependencies that will enable the app to run
 `pip install -r requirements.txt`
 
@@ -57,3 +57,4 @@ python3.6 manage.py runserver
 ```
 Open [localhost:8000](http://127.0.0.1:8000/)
 
+A hosted LIVE DEMO of this app can be found [here](https://lit-atoll-52859.herokuapp.com/catalogue/)
